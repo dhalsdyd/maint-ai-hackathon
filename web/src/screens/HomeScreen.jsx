@@ -9,10 +9,6 @@ const features = [
 
 export default function HomeScreen({ aircraft, onAircraftChange, onNavigate, screens }) {
   const handleFeature = (id) => {
-    if (id === 'wiki') {
-      alert('정비 Wiki — NFC/QR 스캔 기능 (로드맵 2단계)');
-      return;
-    }
     onNavigate(screens[id]);
   };
 

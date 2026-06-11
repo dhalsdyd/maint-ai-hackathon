@@ -5,6 +5,7 @@ import WriteupScreen from './screens/WriteupScreen';
 import WriteupResultScreen from './screens/WriteupResultScreen';
 import OcrScreen from './screens/OcrScreen';
 import ShelfLifeScreen from './screens/ShelfLifeScreen';
+import WikiScreen from './screens/WikiScreen';
 
 const SCREENS = {
   home: 'home',
@@ -12,6 +13,7 @@ const SCREENS = {
   writeupResult: 'writeupResult',
   ocr: 'ocr',
   shelf: 'shelf',
+  wiki: 'wiki',
 };
 
 export default function App() {
@@ -56,6 +58,8 @@ export default function App() {
         return <OcrScreen onBack={goHome} />;
       case SCREENS.shelf:
         return <ShelfLifeScreen onBack={goHome} />;
+      case SCREENS.wiki:
+        return <WikiScreen onBack={goHome} />;
       default:
         return null;
     }
