@@ -12,7 +12,8 @@ maint-ai-hackathon/
 │   ├── 03-executive-summary.md   # 아이디어 요약서 (1페이지)
 │   ├── 04-proposal.md            # 아이디어 기획서 (3 Pillar × 3단계 프레임)
 │   ├── 05-differentiation.md     # 차별점·중복 검토
-│   └── 06-dev-spec.md            # 개발/구축내용 · 기술요구사항
+│   ├── 06-dev-spec.md            # 개발/구축내용 · 기술요구사항
+│   └── 07-idea-summary-form.md   # 아이디어 요약서 (공식 양식 기입용)
 ├── web/                          # 웹 PoC (Vite + React) ★ 메인
 │   └── dist/                     # 빌드 결과물 (배포·데모용)
 ├── prototype/                    # Flutter PoC (레거시)
@@ -44,8 +45,9 @@ npm run preview  # 빌드 결과 미리보기
 
 | 공모 요구 서류 | 파일 |
 |---------------|------|
-| 아이디어 요약서 | `docs/03-executive-summary.md` |
-| 아이디어 기획서 | `docs/04-proposal.md` |
+| 아이디어 요약서 | `docs/07-idea-summary-form.md` (공식 양식 기입용) |
+| 요약서 초안 | `docs/03-executive-summary.md` |
+| 아이디어 기획서 | `docs/04-proposal.md` + `docs/06-dev-spec.md` |
 | (실증) | `web/` 웹 PoC (`dist/` 빌드) |
 
 ## 참고

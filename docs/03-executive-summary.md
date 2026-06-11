@@ -31,7 +31,7 @@
 
 - **범위:** 소모성 정비 부품·군수 행정 (항공기 전체 X)
 - **보안:** 온프레미스 로컬 sLLM (Llama/Qwen), 폐쇄망 배포 설계
-- **실증:** Flutter 태블릿 PoC (Write-up → 정비가이드 30초 데모)
+- **실증:** 웹 PoC — https://dhalsdyd.github.io/maint-ai-hackathon/ (Write-up·OCR·시한품목·Wiki)
 
 ---
 
@@ -43,7 +43,7 @@
 | AI | 클라우드 LLM 챗봇 | **폐쇄망 로컬 sLLM + RAG** |
 | 데이터 | 단순 OCR | **Write-up→결함코드 표준화** |
 | 연동 | 독립 앱 | **DELIIS 스키마 호환** 설계 |
-| 실증 | 기획만 | **Flutter 태블릿 PoC** 완비 |
+| 실증 | 기획만 | **웹 PoC URL** 완비 |
 
 ---
 
