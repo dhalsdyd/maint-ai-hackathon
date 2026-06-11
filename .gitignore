@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+web/node_modules/
+
+# Build (rebuild with: cd web && npm run build)
+web/dist/
+
+# Flutter
+prototype/.dart_tool/
+prototype/build/
+prototype/.flutter-plugins-dependencies
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Env
+.env
+.env.*
