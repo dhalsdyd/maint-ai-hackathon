@@ -45,7 +45,7 @@ npm run preview  # 빌드 결과 미리보기
 
 | 공모 요구 서류 | 파일 |
 |---------------|------|
-| 아이디어 요약서 | `docs/07-idea-summary-form.md` (공식 양식 기입용) |
+| 아이디어 요약서 | `docs/07-idea-summary-form.md` (응모분야·1~6항 공식 양식) |
 | 요약서 초안 | `docs/03-executive-summary.md` |
 | 아이디어 기획서 | `docs/04-proposal.md` + `docs/06-dev-spec.md` |
 | (실증) | `web/` 웹 PoC (`dist/` 빌드) |
